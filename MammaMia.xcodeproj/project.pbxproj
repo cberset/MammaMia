@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		039374831992228C7434C4C6 /* ChefProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AFF78952270B96B7BB7407 /* ChefProfileView.swift */; };
+		0B7776D71C485B021EB7FEBE /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB2E0D8F3C4536AF40D9C0 /* WelcomeView.swift */; };
+		0F4D320F66723178FF30F128 /* ChefListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3C493577DCB4B7767409A0 /* ChefListView.swift */; };
+		0F7FF1CC4A9E435913200075 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650D80E8E20717589642DEEF /* HomeView.swift */; };
+		1770D7CC5702B404A57467F0 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167DD42B349C7EB52706D5AB /* UserProfile.swift */; };
+		1822E4B839E0818FD9254D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E444E66D86848016C8A7B9E6 /* Assets.xcassets */; };
+		3822598AA089580BC499F4A8 /* ChefMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F2570D5F422001F35FAAF1 /* ChefMapView.swift */; };
+		633775BC814170337F534991 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706862E1E0866D96EC160F00 /* CartItem.swift */; };
+		6B533F38B09C998E2C45D556 /* ChefProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418D4B2D2A6020E005E8DEC /* ChefProfile.swift */; };
+		74C745085C42FD7C69722F36 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F1C67AD12A0BCF617D7BF /* Tab.swift */; };
+		7CBA87EB008DA6B25005840D /* ChefGridItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B1A0B458B506592872E3B8 /* ChefGridItem.swift */; };
+		7ECE9BFD75FE000E36AEC0DE /* Chef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3452F8B2177DACD9178950D8 /* Chef.swift */; };
+		7F1B848DEEA740FABF55356F /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AE0944500A14D992A37CA8 /* CartView.swift */; };
+		852C4AB85D8D58FE1B0A1B02 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C1D85EFD919511024A061C /* PaymentMethod.swift */; };
+		A89D73F5B1D9D8FC975B6A76 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CBD4D3CF775DBE9CC8D993 /* HomeViewModel.swift */; };
+		AD6D1677320507771742F600 /* FindChefsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D282E8CE5F38E805E798DE /* FindChefsViewModel.swift */; };
+		B75F3A585968DBFF3551F782 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61209B2351104FE9C8D9DEA6 /* ProfileView.swift */; };
+		B92072A10E095589F671A99D /* FindChefsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97130389DD97D187D468BEA4 /* FindChefsView.swift */; };
+		BCDDA1DE60BACE25E4E6A1FE /* MammaMiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C635954A33C1337B89084E /* MammaMiaApp.swift */; };
+		C4E553D5525828556945CDF9 /* Color+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2738686776E8877C47FB4528 /* Color+Custom.swift */; };
+		CE15517F6093490E21EA0368 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DCF3E8E9B12589606AB15E /* MainView.swift */; };
+		CF0C6E8172CA85CBDB9CE83A /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DD691D6DF652C242F76D7 /* CartViewModel.swift */; };
+		D09969BDEF3BABBD81739B82 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846AE0C929F541AE9F70CFBA /* MainTabView.swift */; };
+		D3F35632CA08A69A15D39D56 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003011E7AC705CA660B3C6C9 /* Dish.swift */; };
+		E4E2726A0190EBD737E7E690 /* Cuisine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9573FD26596F4CCD78D72C /* Cuisine.swift */; };
+		FC6235D815C29FFD7F432DA6 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E259806F83487A2744D06A18 /* AppViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		003011E7AC705CA660B3C6C9 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		13CBD4D3CF775DBE9CC8D993 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		167DD42B349C7EB52706D5AB /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		16B1A0B458B506592872E3B8 /* ChefGridItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefGridItem.swift; sourceTree = "<group>"; };
+		1B3C493577DCB4B7767409A0 /* ChefListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefListView.swift; sourceTree = "<group>"; };
+		1C9573FD26596F4CCD78D72C /* Cuisine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cuisine.swift; sourceTree = "<group>"; };
+		26DCF3E8E9B12589606AB15E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2738686776E8877C47FB4528 /* Color+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Custom.swift"; sourceTree = "<group>"; };
+		2F38E8885C3EAB07B828CE37 /* MammaMia.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MammaMia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3452F8B2177DACD9178950D8 /* Chef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chef.swift; sourceTree = "<group>"; };
+		34F2570D5F422001F35FAAF1 /* ChefMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefMapView.swift; sourceTree = "<group>"; };
+		5418D4B2D2A6020E005E8DEC /* ChefProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefProfile.swift; sourceTree = "<group>"; };
+		5A8F1C67AD12A0BCF617D7BF /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		61209B2351104FE9C8D9DEA6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		650D80E8E20717589642DEEF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		667DD691D6DF652C242F76D7 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		706862E1E0866D96EC160F00 /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		846AE0C929F541AE9F70CFBA /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		85C1D85EFD919511024A061C /* PaymentMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
+		97130389DD97D187D468BEA4 /* FindChefsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindChefsView.swift; sourceTree = "<group>"; };
+		ACDB2E0D8F3C4536AF40D9C0 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		B2AE0944500A14D992A37CA8 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		E259806F83487A2744D06A18 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		E444E66D86848016C8A7B9E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7AFF78952270B96B7BB7407 /* ChefProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefProfileView.swift; sourceTree = "<group>"; };
+		E8D282E8CE5F38E805E798DE /* FindChefsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindChefsViewModel.swift; sourceTree = "<group>"; };
+		F6C635954A33C1337B89084E /* MammaMiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MammaMiaApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		068F7C8131F0BDF91CF6FF15 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				910824FABD4507D03581EE76 /* Models */,
+				C3810A3457CB27ED5FABFE07 /* Views */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1FC965E683A1C8BA06747C1C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				706862E1E0866D96EC160F00 /* CartItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		25ADF17E3695F82F0644AB36 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				650D80E8E20717589642DEEF /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2BB6E99D07CE5C2E80D2CC28 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				667DD691D6DF652C242F76D7 /* CartViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		502642E0D617B7FD73A6D551 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5418D4B2D2A6020E005E8DEC /* ChefProfile.swift */,
+				003011E7AC705CA660B3C6C9 /* Dish.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		656F067E5525779D952F2E28 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				13CBD4D3CF775DBE9CC8D993 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		67FAECC02F213BAF0ED406E3 /* FindChefs */ = {
+			isa = PBXGroup;
+			children = (
+				B11D29104F20284CB382AB61 /* Models */,
+				BE359976CA39CB16DBA1256F /* ViewModels */,
+				D3114CFD153101C28E690B69 /* Views */,
+			);
+			path = FindChefs;
+			sourceTree = "<group>";
+		};
+		7526B1C98FFD05124D1FB692 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				16B1A0B458B506592872E3B8 /* ChefGridItem.swift */,
+				E7AFF78952270B96B7BB7407 /* ChefProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		834F3287E0995E2CDA79CE5D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D99A16E044A08BF5C90F4825 /* Extensions */,
+				E94ECD33F0DBBBEA4AD9616B /* Models */,
+				E2308A3075A2C4D2BF7EB0BC /* ViewModels */,
+				C7B9E6057950D9BD4C81838A /* Views */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		88BD41CD3E44C4879DAC9385 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E444E66D86848016C8A7B9E6 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		88F9DD56F8AB90F710B5B5BC = {
+			isa = PBXGroup;
+			children = (
+				C7DF0FC0A451C032CB0EB7D6 /* MammaMia */,
+				EBB391CFA40C1F1EBA86764E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E85B18B00DA9FCC6174B78D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2AE0944500A14D992A37CA8 /* CartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		910824FABD4507D03581EE76 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				85C1D85EFD919511024A061C /* PaymentMethod.swift */,
+				167DD42B349C7EB52706D5AB /* UserProfile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B11D29104F20284CB382AB61 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3452F8B2177DACD9178950D8 /* Chef.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BE359976CA39CB16DBA1256F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E8D282E8CE5F38E805E798DE /* FindChefsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BF996E4ED7548E2068A8193E /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				FAED4B99F0F36846DAF0CC5D /* Views */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		C3810A3457CB27ED5FABFE07 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				61209B2351104FE9C8D9DEA6 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C7B9E6057950D9BD4C81838A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				846AE0C929F541AE9F70CFBA /* MainTabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C7DF0FC0A451C032CB0EB7D6 /* MammaMia */ = {
+			isa = PBXGroup;
+			children = (
+				DBDE7BA52FCDD47B3966A523 /* App */,
+				834F3287E0995E2CDA79CE5D /* Core */,
+				FFCFFB08C4296ED3345DAACD /* Features */,
+				88BD41CD3E44C4879DAC9385 /* Resources */,
+			);
+			path = MammaMia;
+			sourceTree = "<group>";
+		};
+		CD3383C809254F7306BD8519 /* Chef */ = {
+			isa = PBXGroup;
+			children = (
+				502642E0D617B7FD73A6D551 /* Models */,
+				7526B1C98FFD05124D1FB692 /* Views */,
+			);
+			path = Chef;
+			sourceTree = "<group>";
+		};
+		D291340C446AB2A670AD1700 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				1FC965E683A1C8BA06747C1C /* Models */,
+				2BB6E99D07CE5C2E80D2CC28 /* ViewModels */,
+				8E85B18B00DA9FCC6174B78D /* Views */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		D3114CFD153101C28E690B69 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1B3C493577DCB4B7767409A0 /* ChefListView.swift */,
+				34F2570D5F422001F35FAAF1 /* ChefMapView.swift */,
+				97130389DD97D187D468BEA4 /* FindChefsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D99A16E044A08BF5C90F4825 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2738686776E8877C47FB4528 /* Color+Custom.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DAE82E6A2F28E6F922B0E42C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1C9573FD26596F4CCD78D72C /* Cuisine.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DBDE7BA52FCDD47B3966A523 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				26DCF3E8E9B12589606AB15E /* MainView.swift */,
+				F6C635954A33C1337B89084E /* MammaMiaApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E2308A3075A2C4D2BF7EB0BC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E259806F83487A2744D06A18 /* AppViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E94ECD33F0DBBBEA4AD9616B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A8F1C67AD12A0BCF617D7BF /* Tab.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EBB391CFA40C1F1EBA86764E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F38E8885C3EAB07B828CE37 /* MammaMia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F321DB9CF140BE44942AA6CD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DAE82E6A2F28E6F922B0E42C /* Models */,
+				656F067E5525779D952F2E28 /* ViewModels */,
+				25ADF17E3695F82F0644AB36 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FAED4B99F0F36846DAF0CC5D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ACDB2E0D8F3C4536AF40D9C0 /* WelcomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FFCFFB08C4296ED3345DAACD /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				D291340C446AB2A670AD1700 /* Cart */,
+				CD3383C809254F7306BD8519 /* Chef */,
+				67FAECC02F213BAF0ED406E3 /* FindChefs */,
+				F321DB9CF140BE44942AA6CD /* Home */,
+				068F7C8131F0BDF91CF6FF15 /* Profile */,
+				BF996E4ED7548E2068A8193E /* Welcome */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB758040DAFB445A4A5B75B2 /* MammaMia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 688EFBAAD772B28BD029D1A4 /* Build configuration list for PBXNativeTarget "MammaMia" */;
+			buildPhases = (
+				354F4CF89DA3705CB79BA47C /* Sources */,
+				35D449F564835939D1A1BBC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MammaMia;
+			productName = MammaMia;
+			productReference = 2F38E8885C3EAB07B828CE37 /* MammaMia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01E31E7505AA45521F083EE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FB758040DAFB445A4A5B75B2 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 043E404B64D6867E1526A613 /* Build configuration list for PBXProject "MammaMia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 88F9DD56F8AB90F710B5B5BC;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB758040DAFB445A4A5B75B2 /* MammaMia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35D449F564835939D1A1BBC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1822E4B839E0818FD9254D01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		354F4CF89DA3705CB79BA47C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6235D815C29FFD7F432DA6 /* AppViewModel.swift in Sources */,
+				633775BC814170337F534991 /* CartItem.swift in Sources */,
+				7F1B848DEEA740FABF55356F /* CartView.swift in Sources */,
+				CF0C6E8172CA85CBDB9CE83A /* CartViewModel.swift in Sources */,
+				7ECE9BFD75FE000E36AEC0DE /* Chef.swift in Sources */,
+				7CBA87EB008DA6B25005840D /* ChefGridItem.swift in Sources */,
+				0F4D320F66723178FF30F128 /* ChefListView.swift in Sources */,
+				3822598AA089580BC499F4A8 /* ChefMapView.swift in Sources */,
+				6B533F38B09C998E2C45D556 /* ChefProfile.swift in Sources */,
+				039374831992228C7434C4C6 /* ChefProfileView.swift in Sources */,
+				C4E553D5525828556945CDF9 /* Color+Custom.swift in Sources */,
+				E4E2726A0190EBD737E7E690 /* Cuisine.swift in Sources */,
+				D3F35632CA08A69A15D39D56 /* Dish.swift in Sources */,
+				B92072A10E095589F671A99D /* FindChefsView.swift in Sources */,
+				AD6D1677320507771742F600 /* FindChefsViewModel.swift in Sources */,
+				0F7FF1CC4A9E435913200075 /* HomeView.swift in Sources */,
+				A89D73F5B1D9D8FC975B6A76 /* HomeViewModel.swift in Sources */,
+				D09969BDEF3BABBD81739B82 /* MainTabView.swift in Sources */,
+				CE15517F6093490E21EA0368 /* MainView.swift in Sources */,
+				BCDDA1DE60BACE25E4E6A1FE /* MammaMiaApp.swift in Sources */,
+				852C4AB85D8D58FE1B0A1B02 /* PaymentMethod.swift in Sources */,
+				B75F3A585968DBFF3551F782 /* ProfileView.swift in Sources */,
+				74C745085C42FD7C69722F36 /* Tab.swift in Sources */,
+				1770D7CC5702B404A57467F0 /* UserProfile.swift in Sources */,
+				0B7776D71C485B021EB7FEBE /* WelcomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3EECE77147CDB8DF92964D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MammaMia;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "MammaMia needs your location to show you nearby chefs and calculate distances.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mamamia.app;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		835B37D5E0F2549C997BFB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MammaMia;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "MammaMia needs your location to show you nearby chefs and calculate distances.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mamamia.app;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BA1DFD7ED7739FBF21CDBD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E0EBF5A4B58AFE9D33663379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043E404B64D6867E1526A613 /* Build configuration list for PBXProject "MammaMia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0EBF5A4B58AFE9D33663379 /* Debug */,
+				BA1DFD7ED7739FBF21CDBD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		688EFBAAD772B28BD029D1A4 /* Build configuration list for PBXNativeTarget "MammaMia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835B37D5E0F2549C997BFB61 /* Debug */,
+				3EECE77147CDB8DF92964D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01E31E7505AA45521F083EE1 /* Project object */;
+}
