@@ -75,7 +75,7 @@ struct PaymentMethodRow: View {
     var body: some View {
         HStack {
             Image(systemName: method.type.systemImage)
-                .foregroundColor(.blue)
+                .foregroundColor(.customAccent)
             
             VStack(alignment: .leading) {
                 HStack {
@@ -85,8 +85,8 @@ struct PaymentMethodRow: View {
                             .font(.caption)
                             .padding(.horizontal, 6)
                             .padding(.vertical, 2)
-                            .background(Color.blue.opacity(0.1))
-                            .foregroundColor(.blue)
+                            .background(Color.customAccent.opacity(0.1))
+                            .foregroundColor(.customAccent)
                             .cornerRadius(4)
                     }
                 }
