@@ -58,6 +58,17 @@ struct CartView: View {
                 }
                 .padding(.horizontal)
                 
+                HStack {
+                    Text("Number of meals:")
+                        .font(.subheadline)
+                        .foregroundColor(.secondary)
+                    Spacer()
+                    Text("\(viewModel.itemCount)")
+                        .font(.subheadline)
+                        .foregroundColor(.secondary)
+                }
+                .padding(.horizontal)
+                
                 Button(action: {
                     // TODO: Implement checkout
                 }) {

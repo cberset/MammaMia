@@ -1,37 +1,139 @@
-# MammaMia
+# MammaMia - Connect with Local Home Chefs 🍝
 
-A SwiftUI-based iOS app that connects users with local chefs for authentic Italian cuisine delivery.
+A mobile application that connects food enthusiasts with local home chefs, enabling users to discover, order, and enjoy homemade meals from their neighborhood.
 
-## Features
+## 📱 Project Overview
 
-- Browse local chefs and their specialties
-- View detailed chef profiles and menus
-- Easy ordering system with cart functionality
-- Multiple payment methods support
-- Clean and modern UI design
+MammaMia is a SwiftUI-based iOS application designed to revolutionize the way people access homemade food in their local communities. By connecting passionate home chefs with food enthusiasts, we're creating a marketplace for authentic, homemade culinary experiences.
 
-## Requirements
+## 🌟 Features
 
-- iOS 16.0+
-- Xcode 15.0+
-- Swift 5.9+
+### For Customers
+- **Interactive Map Interface** 🗺️
+  - Real-time location-based discovery of home chefs
+  - Visual representation of chef locations with custom pins
+  - Distance and estimated delivery time calculations
 
-## Installation
+- **Chef Profiles & Menus** 👨‍🍳
+  - Detailed chef profiles with ratings and reviews
+  - Daily/weekly menu updates
+  - Food photos and detailed descriptions
+  - Pricing and portion information
+  - Dietary restrictions and allergen information
 
-1. Clone the repository
-```bash
-git clone https://github.com/cberset/MammaMia.git
+- **Ordering System** 🛒
+  - Intuitive cart management
+  - Multiple items from different chefs
+  - Special instructions and customization options
+  - Order scheduling for future dates
+
+- **Payment Integration** 💳
+  - Secure payment processing
+  - Multiple payment methods support
+  - Split payment options
+  - Digital wallet integration
+
+- **Order Tracking** 📍
+  - Real-time delivery tracking
+  - Push notifications for order updates
+  - Delivery ETA updates
+  - Direct communication with delivery personnel
+
+### For Chefs
+- **Chef Dashboard** 📊
+  - Menu management system
+  - Order management and tracking
+  - Earnings analytics
+  - Customer feedback and ratings
+
+## 🛠 Technical Architecture
+
+### Core Technology Stack
+- **Frontend**
+  - SwiftUI for iOS UI development
+  - Shared Kotlin Multiplatform Mobile (KMM) core for future Android support
+  - Domain logic in Swift packages for potential web reuse
+  
+- **Backend**
+  - Supabase for authentication and database
+  - PostgreSQL for data storage
+
+### Maps & Location Services
+- **Mapping Services**
+  - Google Maps / Mapbox integration
+  - Geolocation services
+  - Distance matrix calculations
+  - Geocoding and reverse geocoding
+
+### Payment Processing
+- **Payment Gateway**
+  - Stripe/PayPal/Twint integration
+  - Secure payment processing
+  - Swiss Franks as initial currency
+
+## 📁 Project Structure
+```
+MammaMia/
+├── App/
+│   ├── MammaMiaApp.swift          # App entry point
+│   └── AppDelegate.swift          # App configuration
+│
+├── Features/
+│   ├── Authentication/            # User authentication
+│   │   ├── Views/
+│   │   ├── ViewModels/
+│   │   └── Models/
+│   │
+│   ├── Map/                       # Map interface
+│   │   ├── Views/
+│   │   ├── ViewModels/
+│   │   └── Services/
+│   │
+│   ├── Chef/                      # Chef features
+│   │   ├── Profile/
+│   │   ├── Menu/
+│   │   └── Dashboard/
+│   │
+│   ├── Order/                     # Order management
+│   │   ├── Cart/
+│   │   ├── Checkout/
+│   │   └── Tracking/
+│   │
+│   └── Payment/                   # Payment processing
+│       ├── Services/
+│       └── Models/
+│
+├── Core/
+│   ├── Network/                   # Networking layer
+│   ├── Database/                  # Local storage
+│   ├── Common/                    # Shared utilities
+│   └── Extensions/               
+│
+├── Resources/
+│   ├── Assets.xcassets/
+│   ├── Localizations/
+│   └── Fonts/
+│
+├── Tests/
+│   ├── UnitTests/
+│   └── UITests/
+│
+└── Config/
+    ├── Info.plist
+    ├── Debug.xcconfig
+    └── Release.xcconfig
 ```
 
-2. Open the project in Xcode
-```bash
-cd MammaMia
-open MammaMia.xcodeproj
-```
+## 🔧 Development Setup
 
-3. Build and run the project
-
-## Architecture
+### Prerequisites
+- Xcode 15.0 or later
+- iOS 16.0+ deployment target
+- Swift 5.9 or later
+- CocoaPods or Swift Package Manager
+- Supabase account
+- Payment gateway account (Stripe/PayPal/Twint)
+- Google Maps/Mapbox API key
 
 The app follows a clean architecture approach with:
 - MVVM design pattern

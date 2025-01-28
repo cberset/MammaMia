@@ -31,6 +31,7 @@ struct MainView: View {
                         .tag(Tab.cart)
                 }
                 .environmentObject(cartViewModel)
+                .tint(.customAccent)
             } else {
                 WelcomeView(isAuthenticated: $isAuthenticated)
             }

@@ -5,6 +5,8 @@ struct HomeView: View {
     @EnvironmentObject var appViewModel: AppViewModel
     @State private var showingProfile = false
     
+    private let accentColor = Color(red: 239/255, green: 65/255, blue: 54/255) // Red color
+    
     private let columns = [
         GridItem(.flexible()),
         GridItem(.flexible())
@@ -59,7 +61,7 @@ struct HomeView: View {
             if !viewModel.searchText.isEmpty {
                 Button(action: { viewModel.searchText = "" }) {
                     Image(systemName: "xmark.circle.fill")
-                        .foregroundColor(.gray)
+                        .foregroundColor(accentColor)
                 }
             }
         }
@@ -72,6 +74,7 @@ struct HomeView: View {
 
 struct CuisineCard: View {
     let cuisine: Cuisine
+    private let accentColor = Color(red: 239/255, green: 65/255, blue: 54/255) // Red color
     
     var body: some View {
         VStack {
@@ -79,7 +82,7 @@ struct CuisineCard: View {
                 .font(.system(size: 60))
                 .frame(height: 120)
                 .frame(maxWidth: .infinity)
-                .background(Color(.systemGray6))
+                .background(accentColor.opacity(0.1))
                 .cornerRadius(12)
             
             Text(cuisine.name)

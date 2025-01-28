@@ -25,7 +25,9 @@ struct ProfileView: View {
                     } label: {
                         HStack {
                             Image(systemName: "plus.circle.fill")
+                                .foregroundColor(.customAccent)
                             Text("Add Payment Method")
+                                .foregroundColor(.customAccent)
                         }
                     }
                 } header: {
@@ -119,7 +121,7 @@ struct AddPaymentMethodView: View {
                 } label: {
                     HStack {
                         Image(systemName: "camera.fill")
-                            .foregroundColor(.blue)
+                            .foregroundColor(.customAccent)
                         Text("Scan Card")
                     }
                 }
@@ -130,7 +132,7 @@ struct AddPaymentMethodView: View {
                 } label: {
                     HStack {
                         Image(systemName: "creditcard")
-                            .foregroundColor(.blue)
+                            .foregroundColor(.customAccent)
                         Text("Enter Card Details")
                     }
                 }
@@ -141,7 +143,7 @@ struct AddPaymentMethodView: View {
                 } label: {
                     HStack {
                         Image(systemName: "iphone")
-                            .foregroundColor(.blue)
+                            .foregroundColor(.customAccent)
                         Text("Set up TWINT")
                     }
                 }

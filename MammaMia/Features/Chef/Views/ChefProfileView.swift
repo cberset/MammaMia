@@ -99,6 +99,26 @@ struct ChefProfileView: View {
                         .environmentObject(cartViewModel)
                 }
             }
+            .overlay {
+                if cartViewModel.showingAddedToCart, let itemName = cartViewModel.lastAddedItem {
+                    VStack {
+                        Spacer()
+                        HStack {
+                            Image(systemName: "checkmark.circle.fill")
+                                .foregroundColor(.green)
+                            Text("\(itemName) added to cart")
+                                .font(.subheadline)
+                                .foregroundColor(.white)
+                        }
+                        .padding()
+                        .background(Color.black.opacity(0.8))
+                        .cornerRadius(25)
+                        .padding(.bottom, 20)
+                    }
+                    .transition(.move(edge: .bottom))
+                }
+            }
+            .animation(.easeInOut, value: cartViewModel.showingAddedToCart)
         }
     }
 }

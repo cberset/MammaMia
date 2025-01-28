@@ -12,7 +12,7 @@ struct ChefMapView: View {
                 VStack(spacing: 8) {
                     Image(systemName: "person.circle.fill")
                         .font(.title)
-                        .foregroundColor(.blue)
+                        .foregroundColor(.customAccent)
                     Text(chef.name)
                         .font(.caption)
                         .padding(.horizontal, 8)

@@ -82,7 +82,7 @@ struct WelcomeView: View {
                         .foregroundColor(.white)
                         .frame(maxWidth: .infinity)
                         .padding()
-                        .background(Color.blue)
+                        .background(Color.customAccent)
                         .cornerRadius(30)
                 }
             }
