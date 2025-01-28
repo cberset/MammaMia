@@ -28,6 +28,13 @@ struct MainTabView: View {
                     Label(Tab.cart.title, systemImage: Tab.cart.systemImage)
                 }
                 .tag(Tab.cart)
+            
+            OrderView()
+                .environmentObject(cartViewModel)
+                .tabItem {
+                    Label(Tab.orders.title, systemImage: Tab.orders.systemImage)
+                }
+                .tag(Tab.orders)
         }
         .tint(.customAccent)
     }

@@ -12,23 +12,30 @@ struct MainView: View {
                     HomeView()
                         .environmentObject(appViewModel)
                         .tabItem {
-                            Label(Tab.home.rawValue, systemImage: Tab.home.systemImage)
+                            Label(Tab.home.title, systemImage: Tab.home.systemImage)
                         }
                         .tag(Tab.home)
                     
                     FindChefsView(selectedCuisine: appViewModel.selectedCuisine)
                         .environmentObject(appViewModel)
                         .tabItem {
-                            Label(Tab.findChefs.rawValue, systemImage: Tab.findChefs.systemImage)
+                            Label(Tab.findChefs.title, systemImage: Tab.findChefs.systemImage)
                         }
                         .tag(Tab.findChefs)
                     
                     CartView()
                         .environmentObject(cartViewModel)
                         .tabItem {
-                            Label(Tab.cart.rawValue, systemImage: Tab.cart.systemImage)
+                            Label(Tab.cart.title, systemImage: Tab.cart.systemImage)
                         }
                         .tag(Tab.cart)
+                    
+                    OrderView()
+                        .environmentObject(cartViewModel)
+                        .tabItem {
+                            Label(Tab.orders.title, systemImage: Tab.orders.systemImage)
+                        }
+                        .tag(Tab.orders)
                 }
                 .environmentObject(cartViewModel)
                 .tint(.customAccent)

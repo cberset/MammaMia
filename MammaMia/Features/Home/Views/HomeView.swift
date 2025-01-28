@@ -82,7 +82,7 @@ struct CuisineCard: View {
                 .font(.system(size: 60))
                 .frame(height: 120)
                 .frame(maxWidth: .infinity)
-                .background(accentColor.opacity(0.1))
+                .background(Color(.systemGray6))
                 .cornerRadius(12)
             
             Text(cuisine.name)

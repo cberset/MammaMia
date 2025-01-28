@@ -2,6 +2,7 @@ import SwiftUI
 
 struct CartView: View {
     @EnvironmentObject private var viewModel: CartViewModel
+    @State private var showingCheckout = false
     
     var body: some View {
         NavigationView {
@@ -13,6 +14,15 @@ struct CartView: View {
                 }
             }
             .navigationTitle("Cart")
+        }
+        .sheet(isPresented: $showingCheckout) {
+            CheckoutView(cartItems: viewModel.items, totalAmount: viewModel.totalAmount)
+                .environmentObject(viewModel)
+                .onDisappear {
+                    if viewModel.orderConfirmed {
+                        viewModel.clearCart()
+                    }
+                }
         }
     }
     
@@ -70,7 +80,7 @@ struct CartView: View {
                 .padding(.horizontal)
                 
                 Button(action: {
-                    // TODO: Implement checkout
+                    showingCheckout = true
                 }) {
                     Text("Checkout")
                         .font(.headline)

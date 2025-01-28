@@ -6,6 +6,8 @@ class CartViewModel: ObservableObject {
     @Published private(set) var items: [CartItem] = []
     @Published var showingAddedToCart = false
     @Published var lastAddedItem: String?
+    @Published var orderConfirmed = false
+    @Published private(set) var activeOrder: Order?
     
     var totalAmount: Decimal {
         items.reduce(Decimal.zero) { $0 + $1.total }
@@ -51,5 +53,11 @@ class CartViewModel: ObservableObject {
     
     func clearCart() {
         items.removeAll()
+        orderConfirmed = false
+    }
+    
+    func confirmOrder() {
+        orderConfirmed = true
+        activeOrder = Order.createFromCart(items, totalAmount: totalAmount)
     }
 } 

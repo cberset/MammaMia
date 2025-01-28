@@ -57,11 +57,12 @@ struct ChefProfileView: View {
                                     DishCard(dish: dish)
                                         .onTapGesture {
                                             selectedDish = dish
-                                            showingQuantitySheet = true
                                         }
+                                        .padding(.vertical, 4)
                                 }
                             }
                             .padding(.horizontal)
+                            .padding(.vertical, 4)
                         }
                     }
                     
@@ -75,7 +76,6 @@ struct ChefProfileView: View {
                             MenuItemRow(dish: dish)
                                 .onTapGesture {
                                     selectedDish = dish
-                                    showingQuantitySheet = true
                                 }
                         }
                     }
@@ -93,11 +93,9 @@ struct ChefProfileView: View {
                     }
                 }
             }
-            .sheet(isPresented: $showingQuantitySheet) {
-                if let dish = selectedDish {
-                    AddToCartSheet(dish: dish, chefName: profile.name)
-                        .environmentObject(cartViewModel)
-                }
+            .sheet(item: $selectedDish) { dish in
+                AddToCartSheet(dish: dish, chefName: profile.name)
+                    .environmentObject(cartViewModel)
             }
             .overlay {
                 if cartViewModel.showingAddedToCart, let itemName = cartViewModel.lastAddedItem {
@@ -152,7 +150,7 @@ struct DishCard: View {
         .background(
             RoundedRectangle(cornerRadius: 12)
                 .fill(Color(.systemBackground))
-                .shadow(radius: 2)
+                .shadow(color: Color.black.opacity(0.1), radius: 4, x: 0, y: 2)
         )
     }
 }

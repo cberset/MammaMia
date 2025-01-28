@@ -4,6 +4,7 @@ import MapKit
 struct ChefMapView: View {
     let chefs: [Chef]
     @Binding var region: MKCoordinateRegion
+    @State private var selectedChef: Chef?
     
     var body: some View {
         Map(coordinateRegion: $region,
@@ -22,7 +23,13 @@ struct ChefMapView: View {
                         .shadow(radius: 2)
                 }
                 .padding(4)
+                .onTapGesture {
+                    selectedChef = chef
+                }
             }
+        }
+        .sheet(item: $selectedChef) { chef in
+            ChefProfileView(profile: ChefProfile.from(chef))
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }

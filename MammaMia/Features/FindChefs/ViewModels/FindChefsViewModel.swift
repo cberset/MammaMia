@@ -17,8 +17,8 @@ class FindChefsViewModel: ObservableObject {
         // Initialize properties
         self.chefs = Chef.sampleChefs
         self.region = MKCoordinateRegion(
-            center: CLLocationCoordinate2D(latitude: 47.3769, longitude: 8.5417), // Zurich center
-            span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
+            center: CLLocationCoordinate2D(latitude: 47.3775, longitude: 8.5153), // Erismannstrasse 36
+            span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
         )
         
         // Setup location services
@@ -29,8 +29,8 @@ class FindChefsViewModel: ObservableObject {
         locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters
         locationManager.requestWhenInUseAuthorization()
         
-        // For demo purposes, set a default location in Zurich
-        userLocation = CLLocation(latitude: 47.3769, longitude: 8.5417)
+        // For demo purposes, set a default location at Erismannstrasse 36
+        userLocation = CLLocation(latitude: 47.3775, longitude: 8.5153)
     }
     
     var filteredChefs: [Chef] {

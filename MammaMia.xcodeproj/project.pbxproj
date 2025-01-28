@@ -14,8 +14,10 @@
 		1770D7CC5702B404A57467F0 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167DD42B349C7EB52706D5AB /* UserProfile.swift */; };
 		1822E4B839E0818FD9254D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E444E66D86848016C8A7B9E6 /* Assets.xcassets */; };
 		3822598AA089580BC499F4A8 /* ChefMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F2570D5F422001F35FAAF1 /* ChefMapView.swift */; };
+		3A30E07AA714CF1F528651A1 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C2D578B90DD869F1ED1EE7 /* OrderView.swift */; };
 		633775BC814170337F534991 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706862E1E0866D96EC160F00 /* CartItem.swift */; };
 		6B533F38B09C998E2C45D556 /* ChefProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418D4B2D2A6020E005E8DEC /* ChefProfile.swift */; };
+		71E4733665ACBF516C9CA813 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C522BAA000946D13B08C1118 /* CheckoutView.swift */; };
 		74C745085C42FD7C69722F36 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F1C67AD12A0BCF617D7BF /* Tab.swift */; };
 		7CBA87EB008DA6B25005840D /* ChefGridItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B1A0B458B506592872E3B8 /* ChefGridItem.swift */; };
 		7ECE9BFD75FE000E36AEC0DE /* Chef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3452F8B2177DACD9178950D8 /* Chef.swift */; };
@@ -32,6 +34,7 @@
 		D09969BDEF3BABBD81739B82 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846AE0C929F541AE9F70CFBA /* MainTabView.swift */; };
 		D3F35632CA08A69A15D39D56 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003011E7AC705CA660B3C6C9 /* Dish.swift */; };
 		E4E2726A0190EBD737E7E690 /* Cuisine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9573FD26596F4CCD78D72C /* Cuisine.swift */; };
+		EEACE5BE28DBA02CA548AC23 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27712205F2F6D67F5C67943E /* Order.swift */; };
 		FC6235D815C29FFD7F432DA6 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E259806F83487A2744D06A18 /* AppViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +47,7 @@
 		1C9573FD26596F4CCD78D72C /* Cuisine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cuisine.swift; sourceTree = "<group>"; };
 		26DCF3E8E9B12589606AB15E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		2738686776E8877C47FB4528 /* Color+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Custom.swift"; sourceTree = "<group>"; };
+		27712205F2F6D67F5C67943E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		2F38E8885C3EAB07B828CE37 /* MammaMia.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MammaMia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3452F8B2177DACD9178950D8 /* Chef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chef.swift; sourceTree = "<group>"; };
 		34F2570D5F422001F35FAAF1 /* ChefMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefMapView.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 		97130389DD97D187D468BEA4 /* FindChefsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindChefsView.swift; sourceTree = "<group>"; };
 		ACDB2E0D8F3C4536AF40D9C0 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		B2AE0944500A14D992A37CA8 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		B9C2D578B90DD869F1ED1EE7 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		C522BAA000946D13B08C1118 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		E259806F83487A2744D06A18 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 		E444E66D86848016C8A7B9E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7AFF78952270B96B7BB7407 /* ChefProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefProfileView.swift; sourceTree = "<group>"; };
@@ -89,6 +95,14 @@
 				650D80E8E20717589642DEEF /* HomeView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		284477E611CFF6211F22C0F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				27712205F2F6D67F5C67943E /* Order.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		2BB6E99D07CE5C2E80D2CC28 /* ViewModels */ = {
@@ -166,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				B2AE0944500A14D992A37CA8 /* CartView.swift */,
+				C522BAA000946D13B08C1118 /* CheckoutView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,6 +192,14 @@
 				167DD42B349C7EB52706D5AB /* UserProfile.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		98E2E3A672C73BFF12D56929 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B9C2D578B90DD869F1ED1EE7 /* OrderView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		B11D29104F20284CB382AB61 /* Models */ = {
@@ -292,6 +315,15 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		E7DDC18F68DADE6CF961A700 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				284477E611CFF6211F22C0F0 /* Models */,
+				98E2E3A672C73BFF12D56929 /* Views */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
 		E94ECD33F0DBBBEA4AD9616B /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -333,6 +365,7 @@
 				CD3383C809254F7306BD8519 /* Chef */,
 				67FAECC02F213BAF0ED406E3 /* FindChefs */,
 				F321DB9CF140BE44942AA6CD /* Home */,
+				E7DDC18F68DADE6CF961A700 /* Order */,
 				068F7C8131F0BDF91CF6FF15 /* Profile */,
 				BF996E4ED7548E2068A8193E /* Welcome */,
 			);
@@ -409,6 +442,7 @@
 				633775BC814170337F534991 /* CartItem.swift in Sources */,
 				7F1B848DEEA740FABF55356F /* CartView.swift in Sources */,
 				CF0C6E8172CA85CBDB9CE83A /* CartViewModel.swift in Sources */,
+				71E4733665ACBF516C9CA813 /* CheckoutView.swift in Sources */,
 				7ECE9BFD75FE000E36AEC0DE /* Chef.swift in Sources */,
 				7CBA87EB008DA6B25005840D /* ChefGridItem.swift in Sources */,
 				0F4D320F66723178FF30F128 /* ChefListView.swift in Sources */,
@@ -425,6 +459,8 @@
 				D09969BDEF3BABBD81739B82 /* MainTabView.swift in Sources */,
 				CE15517F6093490E21EA0368 /* MainView.swift in Sources */,
 				BCDDA1DE60BACE25E4E6A1FE /* MammaMiaApp.swift in Sources */,
+				EEACE5BE28DBA02CA548AC23 /* Order.swift in Sources */,
+				3A30E07AA714CF1F528651A1 /* OrderView.swift in Sources */,
 				852C4AB85D8D58FE1B0A1B02 /* PaymentMethod.swift in Sources */,
 				B75F3A585968DBFF3551F782 /* ProfileView.swift in Sources */,
 				74C745085C42FD7C69722F36 /* Tab.swift in Sources */,
