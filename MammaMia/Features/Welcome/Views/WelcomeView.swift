@@ -27,7 +27,7 @@ struct WelcomeView: View {
             
             Spacer()
             
-            // Create Account Button
+            // Create account button
             Button(action: {
                 // Create account would go here
                 isAuthenticated = true
